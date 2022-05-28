@@ -8,13 +8,15 @@
     <!-- href="https://fonts.googleapis.com/css?family=Tangerine"> -->
     <link rel="stylesheet" href="/style.css">
 </head>
-<body style="background-color:#79DAE8;">
-    <section class="chat_section">
+<body style="background-color:#6990ea;">
+    <div class="chat_section">
     <div class="brand">
-        <img height="100" src="/gossup.jpg" alt="" ></div>
-        <div>
+        <img height="98" src="/gossup.jpg" alt="" >
+      
         <h1 class="ann">Annyeonghaseyo</h1><br>
         <h1 class="sec">Secret-Talks</h1>
+        </div>
+        <div class="container">
         <div class="message_area">
             <div class="incoming_message"> 
             </div>
@@ -23,10 +25,12 @@
         </div>
    
     </div>
-    <div>
-        <textarea id="textarea" cols="35" rows="5" placeholder="Write a message..."> </textarea>
-    </div>
-</section>
+</div>
+
+<div>
+    <textarea id="textarea" cols="70" rows="1" placeholder="Write a message..."> </textarea>
+</div>
+
     <script src="/socket.io/socket.io.js"></script>
    <script src="/client.js"></script> 
 </body>
